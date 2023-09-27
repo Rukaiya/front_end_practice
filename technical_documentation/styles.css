@@ -73,7 +73,7 @@ code {
   color: rgb(75, 37, 87)
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 1251px) {
   #navbar ul {
     height: 207px;
   }
@@ -96,6 +96,7 @@ code {
   }
 
   #main-doc{
+    width: 100vw;
     position: relative;
     margin-left: 0px;
     margin-top: 460px;
