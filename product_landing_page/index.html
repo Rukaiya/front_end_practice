@@ -16,22 +16,22 @@
     alt="original-trombones-logo">
     <nav id="nav-bar">
       <ul>
-        <li><a class="nav-link" href="#premium-material">Features</a></li>
-        <li><a class="nav-link" href="#video">How it Works</a></li>
-        <li><a class="nav-link" href="">Pricing</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How it Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <div id="container">
     <div id="form-section">
       <h2>Handcrafted, home-made masterpieces</h2>
-      <form id="form" action="">
-        <input id="email" type="email" placeholder="Enter your email address">
-        <input type="button" value="GET STARTED" id="submit">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Enter your email address">
+        <input type="submit" value="GET STARTED" id="submit">
       </form>
     </div>
     
-    <div class="features">
+    <section id="features">
       <div class="feature-content">
         <div class="icon">
           <i class="fa fa-3x fa-fire"></i>
@@ -61,8 +61,52 @@
           <p class="sub-text">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
         </div>
       </div>
-    </div>
-    <video id="video" src=""></video>
-  </main>
+    </section>
+
+    <section id="how-it-works">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=z8uZ4yhA7_oh0nZ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+      <div class="price-item">
+        <h4 class="price-heading">Tenor Trombone</h4>
+        <h2 class="price-amount">$600</h2>
+        <p class="price-text">Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.
+        </p>
+        <button class="btn" type="submit" value="submit">Select</button>
+      </div>
+      <div class="price-item">
+        <h4 class="price-heading">Bass Trombone</h4>
+        <h2 class="price-amount">$900</h2>
+        <p class="price-text">Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.
+        </p>
+        <button class="btn" type="submit" value="submit">Select</button>
+      </div>
+      <div class="price-item">
+        <h4 class="price-heading">Value Trombone</h4>
+        <h2 class="price-amount">$1200</h2>
+        <p class="price-text">Plays similar to a Trumpet
+          Great for Jazz Bands
+          Lorem ipsum dolor.
+          Lorem ipsum.
+        </p>
+        <button class="btn" type="submit" value="submit">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="" >Privacy</a></li>
+        <li><a href="" >Term</a></li>
+        <li><a href="" >Contact</a></li>
+      </ul>
+      <span>Copyright 2016, Original Trombones</span>
+    </footer>
+  </div>
 </body>
 </html>
